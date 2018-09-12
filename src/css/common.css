@@ -1,0 +1,147 @@
+.ivu-table td, .ivu-table th{
+  text-align: center;
+}
+/*****页面详情*****/
+.page-component-view{
+  margin: 20px;
+  background: #fff
+}
+.page-component-bd{
+  padding: 20px;
+}
+.tableListOperator{
+  margin-bottom:15px;
+}
+/*****详情页面布局*******/
+.pageHeader{
+  text-align: left;
+  background: #fff;
+  padding: 16px 32px 0;
+  border-bottom: 1px solid #e8e8e8;
+  margin-bottom: 16px;
+}
+.pageBread{
+  padding: 10px 0
+}
+.page-detail{
+
+}
+.page-detail H2{
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(0,0,0,.85);
+  margin-bottom: 16px
+}
+
+.page-view{
+    font-family: "Monospaced Number","Chinese Quote",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgba(0,0,0,.65);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #fff;
+    border-radius: 2px;
+    position: relative;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.page-view-body{
+    padding: 24px 32px;
+}
+
+.page-view-body .pagelist{
+  text-align: left
+}
+.page-view-body .pagelist .pagelist-hd{
+  font-weight: 600;
+  font-size:16px;
+  margin-bottom: 16px;
+}
+.page-view-body .pagelist .pagelist-bd{
+  padding-left: 15px;
+}
+.page-view-body .pagelist .pagelist-item-tilte{
+    line-height: 20px;
+    padding-bottom: 16px;
+    margin-right: 8px;
+    color: rgba(0,0,0,.85);
+    white-space: nowrap;
+    display: table-cell;
+    color: rgba(0,0,0,.85);
+}
+.page-view-body .pagelist .pagelist-item-info{
+  line-height: 22px;
+  width: 100%;
+  padding-bottom: 16px;
+  color: rgba(0,0,0,.65);
+  display: table-cell;
+}
+
+.textleft{
+  text-align: left
+}
+
+.pageimgbox{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.2);
+    box-shadow: 0 1px 1px rgba(0,0,0,.2);
+    margin-right: 4px;
+}
+
+.pageimgbox img{
+    width: 100%;
+    height: 100%
+}
+/****面包屑******/
+.ivu-breadcrumb>span:last-child{
+  font-weight: normal;
+}
+/*分页*/
+.page{
+  text-align: center;
+}
+/******加一条横线*****/
+.page-divider {
+    font-family: "Monospaced Number","Chinese Quote",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgba(0,0,0,.65);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #e8e8e8;
+}
+.page-divider-horizontal {
+  display: block;
+  height: 1px;
+  width: 100%;
+  margin: 24px 0;
+  clear: both;
+}
+.page-divider-vertical {
+  margin: 0 8px;
+  display: inline-block;
+  height: .9em;
+  width: 1px;
+  vertical-align: middle;
+  position: relative;
+  top: -.06em;
+}
+.text-center{
+  text-align: center;
+}
