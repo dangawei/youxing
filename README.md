@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # y
 
 > A admin project
@@ -19,3 +20,7 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+=======
+# youxing
+电车租赁项目
+>>>>>>> a38b3cdf48a83693fc12da2aa79d4948afcafeb0
